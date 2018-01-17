@@ -1,4 +1,4 @@
-from bottle import route, run, static_file
+from bottle import route, run
 
 @route("/")
 def index():
@@ -15,4 +15,3 @@ def about():
 def about():
     return "<h1>pictures</h1>"
 
-run(reloader=True, debug=True)
