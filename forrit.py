@@ -1,4 +1,5 @@
 from bottle import route, run
+import os
 
 @route("/")
 def index():
@@ -14,3 +15,5 @@ def about():
 @route("/pictures")
 def about():
     return "<h1>pictures</h1>"
+
+run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
