@@ -15,3 +15,4 @@ def about():
 def about():
     return "<h1>pictures</h1>"
 
+run()
