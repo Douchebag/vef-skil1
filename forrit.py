@@ -14,6 +14,3 @@ def about():
 @route("/pictures")
 def about():
     return "<h1>pictures</h1>"
-
-if __name__ == '__main__':
-    run()
