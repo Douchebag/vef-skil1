@@ -15,4 +15,5 @@ def about():
 def about():
     return "<h1>pictures</h1>"
 
-run()
+if __name__ == '__main__':
+    run()
